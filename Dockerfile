@@ -9,4 +9,5 @@ RUN set -ex \
 
 FROM scratch
 COPY --from=builder /make2help /bin/make2help
+WORKDIR /make2help
 ENTRYPOINT ["make2help"]
