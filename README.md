@@ -3,7 +3,7 @@ Scratch-based image with just make2help
 
 ## Usage
 ```console
-docker run --rm -v `pwd`:/make2help make2help
+docker run --rm -v `pwd`:/make2help amothic/make2help
 ```
 
 ## License
