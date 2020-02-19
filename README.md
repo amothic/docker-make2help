@@ -6,5 +6,11 @@ Scratch-based image with just make2help
 docker run --rm -v `pwd`:/make2help amothic/make2help
 ```
 
+```Makefile
+## Get help on a command
+help:
+	@docker run --rm -v `pwd`:/make2help amothic/make2help $(MAKEFILE_LIST)
+```
+
 ## License
 [MIT License](LICENSE)
